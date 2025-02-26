@@ -1,0 +1,582 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: box-border;
+}
+
+.navbar {
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.nav-logo {
+    height: 50pxz;
+    width: 130px;
+
+}
+
+.logo:hover {
+    border: 2px solid;
+
+}
+
+.logo {
+    justify-content: center;
+    align-content: center;
+    height: 50px;
+    width: 100%;
+    background-image: url(/images/am1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 11px;
+
+
+}
+.hello
+{
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    color: white;
+
+}
+
+
+.nav-address:hover {
+    border: 2px solid;
+}
+
+.select:hover {
+    border: 2px solid;
+}
+
+.icon {
+    display: flex;
+    gap: 2px;
+}
+
+.address {
+
+    margin-bottom: 1px;
+    font-size: 13px;
+}
+
+.nav-select {
+    display: flex;
+    margin: 15px;
+    align-content: center;
+}
+
+.search-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 40px;
+    background-color: rgb(204, 169, 31);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: black;
+}
+
+.place {
+    display: flex;
+
+    height: 38px;
+    border: none;
+    width: 600px;
+    font-size: 1rem;
+
+
+}
+
+.nav-select {
+    height: 40px;
+
+}
+
+.select {
+    background-color: white;
+    height: 100%;
+    text-align: center;
+    width: 48px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.nav-select:hover {
+    border: 2px solid orange;
+}
+
+.p {
+    font-size: 13px;
+
+}
+
+.r {
+    font-size: 13px;
+    color: white;
+}
+
+.p1 {
+    font-weight: bold;
+}
+
+.order {
+    font-weight: bold;
+}
+
+.nav-sign:hover {
+    border: 2px solid;
+}
+
+.return:hover {
+    border: 2px solid;
+}
+
+.nav-cart i {
+    font-size: 30px;
+}
+
+.nav-cart {
+    font-size: 18px;
+}
+
+.nav-cart:hover {
+    border: 2px solid;
+}
+
+.panel {
+    height: 38px;
+    color: white;
+    background-color: #373939;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+
+}
+
+.panel-option p {
+
+    display: inline;
+    margin-right: 15px;
+}
+
+.panel-option {
+    height: 10px;
+    width: 70%;
+    font-size: 15px;
+}
+
+.ending-panel {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.panel-option p:hover {
+    border: 2px solid;
+}
+
+.hero {
+    background-image: url(images/amazon\ hero2.jpg);
+    height: 430px;
+    background-size: cover;
+}
+
+.shop-content {
+    background-color: white;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    /* border: 2px solid; */
+    height: 550px;
+    width: 350px;
+}
+
+.box1 {
+    padding: 15px;
+}
+
+.box1-1 {
+    margin-top: 8px;
+    height: 257px;
+    background-image: url(images/box1-1.jpg);
+    background-size: cover;
+    background-color: aqua;
+    margin-bottom: 15px;
+    transition: all;
+    transition-duration: 3s;
+    transition-timing-function: ease-in;
+}
+.box1-1:hover
+{
+    transform: skew(30deg);
+}
+
+.box1-2 {
+
+    height: 240px;
+    background-image: url(images/box1-2.jpg);
+    background-size: cover;
+    /* background-color: rgb(197, 210, 14); */
+}
+
+.h2 {
+    text-align: center;
+    font-size: 18px;
+}
+
+.p2 {
+    font-size: 13px;
+    font-weight: 600;
+    color: #2162A1;
+    position: relative;
+    top: 250px;
+}
+
+.box2 {
+    padding: 15px;
+}
+
+.box2-1 {
+    margin-top: 8px;
+    height: 257px;
+    background-image: url(images/box2-1.jpg);
+    background-size: cover;
+    background-color: aqua;
+    margin-bottom: 15px;
+}
+
+.box2-2 {
+
+    height: 240px;
+    background-image: url(images/box2-2.jpg);
+    background-size: cover;
+    /* background-color: rgb(197, 210, 14); */
+}
+
+.Ear {
+    text-align: center;
+    font-size: 18px;
+}
+
+.head {
+    font-size: 13px;
+    font-weight: 600;
+    color: #2162A1;
+    position: relative;
+    top: 250px;
+}
+
+.box3 {
+    padding: 15px;
+}
+
+.box3-1 {
+    margin-top: 8px;
+    height: 257px;
+    background-image: url(images/box3-2.jpg);
+    background-size: cover;
+
+    margin-bottom: 15px;
+}
+
+.box3-2 {
+
+    height: 240px;
+    background-image: url(images/box3-1.jpg);
+    background-size: cover;
+    /* background-color: rgb(197, 210, 14); */
+}
+
+.laptop {
+    text-align: center;
+    font-size: 18px;
+}
+
+.mobile {
+    font-size: 13px;
+    font-weight: 600;
+    color: #2162A1;
+    position: relative;
+    top: 250px;
+}
+
+.box4 {
+    padding: 15px;
+}
+
+.box4-1 {
+    margin-top: 8px;
+    height: 257px;
+    background-image: url(images/box4-2.jpg);
+    background-size: cover;
+
+    margin-bottom: 15px;
+}
+
+.box4-2 {
+
+    height: 240px;
+    background-image: url(images/box4-1.jpg);
+    background-size: cover;
+
+}
+
+.shirts {
+    text-align: center;
+    font-size: 18px;
+}
+
+.pant {
+    font-size: 13px;
+    font-weight: 600;
+    color: #2162A1;
+    position: relative;
+    top: 250px;
+}
+
+.nav-bikes {
+    font-size: 18px;
+    text-align: center;
+    padding: 15px;
+    height: 270px;
+    background-color: white;
+}
+
+.bikes {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+
+}
+
+.bike1 {
+    height: 200px;
+    width: 300px;
+    background-image: url(/images/bikes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.bike2 {
+    height: 200px;
+    width: 300px;
+    background-image: url(/images/bike2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.bike3 {
+    height: 200px;
+    width: 300px;
+    background-image: url(/images/bike3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.bike4 {
+    height: 200px;
+    width: 300px;
+    background-image: url(/images/bike4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.bike5 {
+    height: 200px;
+    width: 300px;
+    background-image: url(/images/bike5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.EMI {
+    text-decoration: underline;
+    position: relative;
+    bottom: 10px;
+    font-size: 22px;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+
+.nav-bed {
+    font-size: 18px;
+    text-align: center;
+    padding: 15px;
+    height: 300px;
+    background-color: white;
+}
+
+.beds {
+    justify-content: space-between;
+
+    display: flex;
+
+
+}
+
+.bed1 {
+    height: 280px;
+    width: 280px;
+    background-color: black;
+    background-image: url(/images/bed1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bed2 {
+    height: 280px;
+    width: 280px;
+    background-color: rgb(20, 242, 76);
+    background-image: url(/images/bed2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bed3 {
+    height: 280px;
+    width: 280px;
+    background-color: rgb(248, 10, 10);
+    background-image: url(/images/bed3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bed4 {
+    height: 280px;
+    width: 280px;
+    background-color: rgb(43, 10, 231);
+    background-image: url(/images/bed2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bed5 {
+    height: 280px;
+    width: 280px;
+    background-color: rgb(247, 7, 171);
+    background-image: url(/images/bed1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.furniture {
+    text-decoration: underline;
+    position: relative;
+    bottom: 10px;
+    font-size: 22px;
+}
+
+.nav-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+    color: #000000;
+    height: 100px;
+    width: 100%;
+
+}
+
+.btn {
+    margin: 12px 1px 1px 150px;
+    padding: 7px;
+    width: 140px;
+    height: 70x;
+    background-color: yellow;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: medium;
+    border: none;
+}
+.start
+{
+    font-size: 14px;
+    margin-top:5px;
+    text-align: center;
+}
+.back
+{
+    height: 40px;
+    width: 100%;
+    background-color:#0F1111 ;
+    color: white ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 400;
+}
+.last
+{
+    font-size: 14px;
+    font-family: "Roboto Condensed", serif;
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    line-height: 27px;
+    background-color:#232F3E;
+    color: white;
+}
+.get
+{
+    font-size: 18px;
+    font-weight: bold;
+}
+.connect
+{
+    font-size: 18px;
+    font-weight: bold;
+}
+.make
+{
+    font-size: 18px;
+    font-weight: bold;
+}
+.let
+{
+    font-size: 18px;
+    font-weight: bold;
+}
+.bottom
+{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color:#1b1b1c;
+    font-size: 13px;
+}
+.p5
+{
+    font-size: 13px;
+    font-weight: 600;
+    color: #2162A1;
+    position: relative;
+    top: 250px;
+}
