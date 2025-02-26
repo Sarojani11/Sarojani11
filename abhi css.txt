@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Amazon-Clone.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar ">
+            <div class="nav-logo">
+                <div class="logo"></div>
+
+            </div>
+            <div class="nav-address">
+                <div class="address">
+                    <p>Deliver to</p>
+                </div>
+                <div class="icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>india</p>
+                </div>
+            </div>
+            <div class="nav-select">
+                <select class="select">
+
+                    <option class="option">All </option>
+                    <input placeholder="Search Amazon" class="place">
+                </select>
+                <div class="search-icon">
+
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div>
+                <div class="nav-sign">
+                    <p class="hello"><span>Hello,sign in</span></p>
+                    <p class="p1">Account & Lists</p>
+                </div>
+            </div>
+            <div class="return">
+                <p class="r"><span>Returns</span></p>
+                <p class="order"> & Orders</p>
+            </div>
+            <div class="nav-cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Cart
+            </div>
+        </div>
+        <div class="panel">
+            <div class="panel-all">
+                <i class="fa-solid fa-bars"></i>
+                All
+            </div>
+            <div class="panel-option">
+                <p>Today's Deals</p>
+                <p>Customer Service</p>
+
+                <p>Mobiles</p>
+                <p>Amazon Pay</p>
+                <p>Prime</p>
+                <p>Home & Kitchen</p>
+
+            </div>
+            <div class="ending-panel">
+                <p>Shop deals in Electronics</p>
+
+            </div>
+        </div>
+    </header>
+
+
+
+    </div>
+    <div class="hero">
+    </div>
+    <div class="shop-content">
+        <div class="box1 box">
+            <h2 class="h2">Appliances for home | Up to 55% off</h2>
+
+            <div class="box1-1">
+
+
+            </div>
+            <div class="box1-2">
+                <p class="p5">See More</p>
+
+            </div>
+
+        </div>
+        <div class="box2 box">
+            <h2 class="Ear">Starting ₹149 | Headphones</h2>
+            <div class="box2-1">
+
+            </div>
+            <div class="box2-2">
+                <p class="head">See More</p>
+            </div>
+
+        </div>
+        <div class="box3 box">
+            <h2 class="laptop">Starting ₹15000 | Electronic Devices</h2>
+            <div class="box3-1">
+
+            </div>
+            <div class="box3-2">
+                <p class="mobile">See More</p>
+            </div>
+        </div>
+        <div class="box4 box">
+            <h2 class="shirts">Up to 60% off | Styles for women</h2>
+            <div class="box4-1">
+
+            </div>
+            <div class="box4-2">
+                <p class="pant">See More</p>
+            </div>
+        </div>
+    </div>
+    <div class="nav-bikes">
+        <h2 class="EMI">No cost EMI up to 24 months | Starting ₹4,433 INR/month*</h2>
+        <div class="bikes">
+
+
+            <div class="bike1"></div>
+            <div class="bike2"></div>
+            <div class="bike3"></div>
+            <div class="bike4"></div>
+            <div class="bike5"></div>
+        </div>
+
+
+
+
+
+    </div>
+    <div class="nav-bed">
+        <h1 class="furniture">Up to 60% off | Best offers on furniture from stores near you</h1>
+        <div class="beds">
+
+            <div class="bed1"></div>
+            <div class="bed2"></div>
+            <div class="bed3"></div>
+            <div class="bed4"></div>
+            <div class="bed5"></div>
+
+        </div>
+    </div>
+    </div>
+
+    <div class="nav-footer">
+        <div class="footer">
+            <h2>See Personalized recommendations</h2>
+            <button class="btn">Sign-in</button>
+            <p class="start">New customer? <a href="#">Start here..</a></p>
+
+        </div>
+
+    </div>
+
+
+    <div class="back">
+        <p>Back to Top</p>
+
+    </div>
+    <footer>
+    <div class="last">
+
+        <div class="line1">
+            <p class="get">Get to Know Us</p>
+            <p> About Amazon</p>
+            <p>Careers</p>
+            <p>Press Releases</p>
+            <p></p> Amazon Science</p>
+        </div>
+        <div class="line2">
+            <p class="connect">Connect with Us</p>
+            <p>Facebook</p>
+            <p>Twitter</p>
+            <p> Instagram</p>
+        </div>
+        <div class="line3">
+            <p class="make">Make Money with Us</p>
+            <p>Sell on Amazon</p>
+            <p>Sell under Amazon Accelerator</p>
+            <p>Protect and Build Your Brand</p>
+            <p>Amazon Global Selling</p>
+            <p>Supply to Amazon</p>
+            <p>Become an Affiliate</p>
+            <p>Fulfilment by Amazon</p>
+            <p>Advertise Your Products</p>
+            <p>Amazon Pay on Merchant</p>
+        </div>
+        <div class="line4">
+
+            <p class="let">Let Us Help You</p>
+            <p>Your Account</p>
+            <p>Returns Centre</p>
+            <p>Recalls and Product Safety Alerts</p>
+            <p>100% Purchase Protection</p>
+            <p>Amazon App Download</p>
+            <p>Help</p>
+        </div>
+
+    </div>
+
+    </div>
+    <div class="bottom">
+        <pre>Conditions of Use & Sale   Privacy Notice  Interest-Based Ads
+                 © 1996-2025, Amazon.com, Inc. or its affiliates</pre>
+    </div>
+</body>
+
+</html>
